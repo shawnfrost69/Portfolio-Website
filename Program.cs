@@ -3,7 +3,7 @@ using PortfolioApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ✅ Railway PORT binding
+// Railway PORT binding
 var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
 builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
@@ -17,7 +17,7 @@ builder.Services.AddControllers()
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// ✅ CORS (frontend-safe)
+// CORS (portfolio-safe)
 const string CorsPolicy = "Frontend";
 builder.Services.AddCors(options =>
 {
@@ -30,7 +30,7 @@ builder.Services.AddCors(options =>
     });
 });
 
-// ✅ Email settings
+// Email settings
 builder.Services.Configure<EmailSettings>(
     builder.Configuration.GetSection("EmailSettings")
 );
@@ -39,7 +39,7 @@ var app = builder.Build();
 
 app.UseStaticFiles();
 
-// ✅ Swagger enabled in production (TEMP)
+// Swagger (TEMP – ok for now)
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
@@ -47,7 +47,6 @@ app.UseSwaggerUI(c =>
     c.RoutePrefix = "swagger";
 });
 
-app.UseHttpsRedirection();
 app.UseCors(CorsPolicy);
 app.UseAuthorization();
 app.MapControllers();
