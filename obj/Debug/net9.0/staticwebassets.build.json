@@ -1,0 +1,434 @@
+{
+  "Version": 1,
+  "Hash": "PUdiF4cQNaWd+veMDjOglAL7se6YwOw+wqO1UVQ9uXY=",
+  "Source": "PortfolioApi",
+  "BasePath": "_content/PortfolioApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PortfolioApi/wwwroot",
+      "Source": "PortfolioApi",
+      "ContentRoot": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/",
+      "BasePath": "_content/PortfolioApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/Images/atpl.png",
+      "SourceId": "PortfolioApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/",
+      "BasePath": "_content/PortfolioApi",
+      "RelativePath": "Images/atpl#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8gziwgazmu",
+      "Integrity": "CLzMFKt3vQHUpKeKi9blrbUinKn2SLGgGX2Pm6sKvF8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/atpl.png"
+    },
+    {
+      "Identity": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/Images/ball-game.png",
+      "SourceId": "PortfolioApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/",
+      "BasePath": "_content/PortfolioApi",
+      "RelativePath": "Images/ball-game#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5wuz5nfe72",
+      "Integrity": "2ycpkWLqCdO/Mtiilx4/0GaBC9fR/RHhF7jw4Rjk9dw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/ball-game.png"
+    },
+    {
+      "Identity": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/Images/GSAP.jpeg",
+      "SourceId": "PortfolioApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/",
+      "BasePath": "_content/PortfolioApi",
+      "RelativePath": "Images/GSAP#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gc9oozbz13",
+      "Integrity": "sMZtkW5IMt6RAfcoGlaRGdMhqH2kvcTaRMlVlUVJglE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/GSAP.jpeg"
+    },
+    {
+      "Identity": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/Images/youtube-extension.png",
+      "SourceId": "PortfolioApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/",
+      "BasePath": "_content/PortfolioApi",
+      "RelativePath": "Images/youtube-extension#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "renvj4je13",
+      "Integrity": "Q7sqwcizuSokr+MwS/LOyOc5m0b3JYeD5W5n93hVd+Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/youtube-extension.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Images/atpl.8gziwgazmu.png",
+      "AssetFile": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/Images/atpl.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1672752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CLzMFKt3vQHUpKeKi9blrbUinKn2SLGgGX2Pm6sKvF8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 21:23:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8gziwgazmu"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/atpl.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CLzMFKt3vQHUpKeKi9blrbUinKn2SLGgGX2Pm6sKvF8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/atpl.png",
+      "AssetFile": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/Images/atpl.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1672752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CLzMFKt3vQHUpKeKi9blrbUinKn2SLGgGX2Pm6sKvF8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 21:23:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CLzMFKt3vQHUpKeKi9blrbUinKn2SLGgGX2Pm6sKvF8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ball-game.5wuz5nfe72.png",
+      "AssetFile": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/Images/ball-game.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "435592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2ycpkWLqCdO/Mtiilx4/0GaBC9fR/RHhF7jw4Rjk9dw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 Jan 2026 22:17:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5wuz5nfe72"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ball-game.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2ycpkWLqCdO/Mtiilx4/0GaBC9fR/RHhF7jw4Rjk9dw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ball-game.png",
+      "AssetFile": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/Images/ball-game.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "435592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2ycpkWLqCdO/Mtiilx4/0GaBC9fR/RHhF7jw4Rjk9dw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 Jan 2026 22:17:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2ycpkWLqCdO/Mtiilx4/0GaBC9fR/RHhF7jw4Rjk9dw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GSAP.gc9oozbz13.jpeg",
+      "AssetFile": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/Images/GSAP.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9608"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sMZtkW5IMt6RAfcoGlaRGdMhqH2kvcTaRMlVlUVJglE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 21:40:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gc9oozbz13"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GSAP.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sMZtkW5IMt6RAfcoGlaRGdMhqH2kvcTaRMlVlUVJglE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GSAP.jpeg",
+      "AssetFile": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/Images/GSAP.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9608"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sMZtkW5IMt6RAfcoGlaRGdMhqH2kvcTaRMlVlUVJglE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 21:40:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sMZtkW5IMt6RAfcoGlaRGdMhqH2kvcTaRMlVlUVJglE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/youtube-extension.png",
+      "AssetFile": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/Images/youtube-extension.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1116418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q7sqwcizuSokr+MwS/LOyOc5m0b3JYeD5W5n93hVd+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 19:53:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q7sqwcizuSokr+MwS/LOyOc5m0b3JYeD5W5n93hVd+Q="
+        }
+      ]
+    },
+    {
+      "Route": "Images/youtube-extension.renvj4je13.png",
+      "AssetFile": "/Users/heysky_69/Desktop/repos/Cloud Resume Azure/My_Resume/PortfolioApi/wwwroot/Images/youtube-extension.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1116418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q7sqwcizuSokr+MwS/LOyOc5m0b3JYeD5W5n93hVd+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 19:53:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "renvj4je13"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/youtube-extension.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q7sqwcizuSokr+MwS/LOyOc5m0b3JYeD5W5n93hVd+Q="
+        }
+      ]
+    }
+  ]
+}
