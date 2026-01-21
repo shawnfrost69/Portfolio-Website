@@ -1,9 +1,7 @@
 using MailKit.Net.Smtp;
 using MailKit.Security;
-using MimeKit;
 using Microsoft.AspNetCore.Mvc;
-
-namespace PortfolioApi.Controllers;
+using MimeKit;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -19,12 +17,8 @@ public class ContactController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Send([FromBody] ContactRequest request)
     {
-        if (string.IsNullOrWhiteSpace(request.Name) ||
-            string.IsNullOrWhiteSpace(request.Email) ||
-            string.IsNullOrWhiteSpace(request.Message))
-        {
-            return BadRequest(new { message = "All fields are required." });
-        }
+        if (!ModelState.IsValid)
+            return BadRequest(ModelState);
 
         var email = new MimeMessage();
         email.From.Add(MailboxAddress.Parse(_config["EmailSettings:From"]));
